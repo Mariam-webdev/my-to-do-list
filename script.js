@@ -138,4 +138,3 @@ function searchTasks() {
     }); 
 }
 
-window.onload = loadTasks;

@@ -24,16 +24,12 @@
             <button onclick="addTask()">Ajouter</button>
                  <h3>La liste des tâches</h3> 
                  <input type="text" id="searchInput" placeholder="Rechercher des tâches..."> 
-                 <select id="sort"> 
-                    <option value="priority">Trier par priorité</option> 
-                    <option value="date">Trier par date</option> 
-                </select> 
                     <button onclick="searchTasks()">Rechercher</button> 
                     <button onclick="filterTasks('completed')">Tâches terminées</button> 
                     <button onclick="filterTasks('ongoing')">Tâches en cours</button> 
                     <ul id="task-list"> 
                         <!-- Les tâches seront ajoutées ici --> </ul> 
     </div>
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 </html>
